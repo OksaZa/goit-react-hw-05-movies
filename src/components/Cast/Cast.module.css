@@ -1,0 +1,33 @@
+.castTitle {
+  font-size: 28px;
+  text-align: center;
+  background-color: #ff9d00;
+  color: #000;
+  padding: 6px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 28px;
+}
+.castList {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.castLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  width: 154px;
+  max-height: 400px;
+  overflow: hidden;
+  background: #84848426;
+  border-radius: 12px;
+  padding: 6px;
+  border: 1px solid #ffffff9a;
+  font-size: 16px;
+}
