@@ -31,3 +31,7 @@
   border: 1px solid #ffffff9a;
   font-size: 16px;
 }
+.castLink b {
+  color: #ff9d00;
+  text-align: center;
+}

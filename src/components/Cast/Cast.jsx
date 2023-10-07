@@ -31,8 +31,6 @@ const Cast = () => {
         <ul className={css.castList}>
           {cast.map(({ id, name, character, profile_path }) => (
             <li className={css.castLink} key={id}>
-              <b>{name}</b>
-              <p>Character: {character}</p>
               <img
                 src={
                   profile_path
@@ -43,6 +41,8 @@ const Cast = () => {
                 width="185"
                 height="150"
               />
+              <b>{name}</b>
+              <p>Character: {character}</p>
             </li>
           ))}
         </ul>
